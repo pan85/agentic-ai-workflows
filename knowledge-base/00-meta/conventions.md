@@ -53,6 +53,14 @@ status: draft | stable | outdated
 - Link the first mention of a concept that has its own note.
 - Terms with a precise meaning belong in the [glossary](glossary.md).
 
+## Keeping it current
+
+The knowledge base is maintained through the whole project life cycle, not
+written once. Every change to the project updates the affected notes in the
+same commit or PR (see the repository `CLAUDE.md`). Because the notes are a
+future RAG source, keep each note self-contained, with descriptive headings
+and accurate front matter.
+
 ## Review
 
 - When ADK is upgraded, search for `Version note` and re-check those notes.
